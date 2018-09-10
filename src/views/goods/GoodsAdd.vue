@@ -34,7 +34,7 @@
                         </div>
                     </el-tab-pane>
                     <el-tab-pane label="商品图片" name="3">
-                        <el-upload class="upload-demo" action="http://localhost:8888/api/private/v1/upload" :headers="getToken()" :on-preview="handlePreview" :on-remove="handleRemove" list-type="picture" :on-success='uploadDone' :before-upload='uploadBeforeValid'>
+                        <el-upload class="upload-demo" action="http://193.112.55.79:9095/api/private/v1/upload" :headers="getToken()" :on-preview="handlePreview" :on-remove="handleRemove" list-type="picture" :on-success='uploadDone' :before-upload='uploadBeforeValid'>
                             <el-button size="small" type="primary">点击上传</el-button>
                             <div slot="tip" class="el-upload__tip" v-if='is_show'>只能上传jpg/png文件，且不超过500kb</div>
                         </el-upload>
