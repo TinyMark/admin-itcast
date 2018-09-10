@@ -172,7 +172,7 @@ export default {
       this.previewdialogVisible = true
       //   console.log(file)
       this.uploadImgSrc =
-        'http://localhost:8888/' + file.response.data.tmp_path
+        'http://193.112.55.79:9095/' + file.response.data.tmp_path
     },
     // 单击Tab标签导航项时触发的事件
     handleClick (tab, event) {
